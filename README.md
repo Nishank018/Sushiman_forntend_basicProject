@@ -65,3 +65,60 @@ npm install
 
 # Start development server
 npm run dev
+
+To build for production:
+
+npm run build
+
+🚚 Deployment Instructions
+Deployed using GitHub Pages via gh-pages branch
+
+To redeploy manually:
+
+npm run deploy
+Make sure your vite.config.js includes:
+
+export default {
+  base: '/Sushiman_forntend_basicProject/'
+}
+🧩 Project Structure
+lua
+Copy
+Edit
+Sushiman_forntend_basicProject/
+├── index.html
+├── style.css
+├── script.js
+├── vite.config.js
+├── package.json
+└── dist/                  # Production build output
+🧠 Ideas for Improvement
+ Add animations (AOS / GSAP)
+
+ Make fully mobile-responsive
+
+ Add a working contact form
+
+ Create dynamic menu section (JS/JSON)
+
+ Convert to React or Vue project
+
+🙋‍♂️ About the Author
+Nishank — Aspiring frontend & full-stack web developer from India 🇮🇳
+Building cool projects while mastering modern web technologies.
+
+🔗 GitHub Profile
+
+⭐ Support This Project
+If you found this project useful or inspiring:
+
+⭐ Star the repository
+
+🛠 Fork it to create your own version
+
+🧑‍💻 Use it in your portfolio
+
+💬 Leave feedback or suggestions
+
+📝 License
+This project is open-source and available under the MIT License.
